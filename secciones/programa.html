@@ -4,15 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estos parámetros del <head> los he visto en la exposición de clase -->
+    <meta name="description" content="Página web de emergencia y mantenimiento de CHRONOS ALPHA FESTIVAL.">
+    <meta name="keywords" content="Programa, Horarios, Timeline, Viernes, Sábado, Conciertos, Festival">
+
+    <link rel="icon" href="../img/logo/isotipo.png">
     <title>Programa - CHRONOS ALPHA FESTIVAL</title>
+    <!-- Kit oficial de FontAwesome según los apuntes -->
+    <script src="https://kit.fontawesome.com/09f87768b9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- Encabezado principal y secundario -->
+    <!-- Cabecera principal -->
     <h1 id="arriba">CHRONOS ALPHA FESTIVAL</h1>
     <h2>Programa - Wiliam Huamani López</h2>
 
-    <!-- Menú de navegación superior -->
+    <!-- Menú de navegación entre secciones -->
     <ul>
         <li><a href="../index.html">Inicio</a></li>
         <li><a href="./noticias.html">Noticias</a></li>
@@ -21,40 +29,68 @@
         <li><a href="./programa.html">Programa</a></li>
     </ul>
 
+    <!-- Imagen de cabecera de la sección -->
     <img src="../img/cabecera/programa.png" alt="Cabecera de Programa">
     <hr>
 
-    <!-- Programación del Viernes -->
-    <h3>VIERNES</h3>
+    <!-- Cronograma de actuaciones estructurado con listas anidadas -->
     <ul>
+        <!-- Día 1: Viernes -->
         <li>
-            <strong>18:00h</strong> - <a href="./artistas.html#Lucho-rk">Lucho RK</a> <em>(<a href="./galeria.html#stage">Stage of The Millenium</a>)</em>
+            <h3>VIERNES</h3>
+            <ul>
+                <li>
+                    <strong>18:00h</strong> - <a href="./artistas.html#lucho-rk"><i class="fa-solid fa-microphone"></i>
+                        Lucho RK</a> <em>(<a href="./galeria.html#stage"><i class="fa-solid fa-location-dot"></i> Stage
+                            of The Millenium</a>)</em>
+                </li>
+                <li>
+                    <strong>20:30h</strong> - <a href="./artistas.html#benyjr"><i class="fa-solid fa-microphone"></i>
+                        Beny JR</a> <em>(<a href="./galeria.html#urban"><i class="fa-solid fa-location-dot"></i> Urban
+                            Block</a>)</em>
+                </li>
+                <li>
+                    <strong>23:00h</strong> - <a href="./artistas.html#trueno"><i class="fa-solid fa-microphone"></i>
+                        Trueno</a> <em>(<a href="./galeria.html#sunset"><i class="fa-solid fa-location-dot"></i>
+                            Sunset</a>)</em>
+                </li>
+            </ul>
         </li>
+
+        <!-- Día 2: Sábado -->
         <li>
-            <strong>20:30h</strong> - <a href="./artistas.html#Benyjr">Beny JR</a> <em>(<a href="./galeria.html#urban">Urban Block</a>)</em>
-        </li>
-        <li>
-            <strong>23:00h</strong> - <a href="./artistas.html#Trueno">Trueno</a> <em>(<a href="./galeria.html#sunset">Sunset</a>)</em>
+            <h3>SÁBADO</h3>
+            <ul>
+                <li>
+                    <strong>19:00h</strong> - <a href="./artistas.html#benyjr"><i class="fa-solid fa-microphone"></i>
+                        Beny JR</a> <em>(<a href="./galeria.html#urban"><i class="fa-solid fa-location-dot"></i> Urban
+                            Block</a>)</em>
+                </li>
+                <li>
+                    <strong>21:15h</strong> - <a href="./artistas.html#lucho-rk"><i class="fa-solid fa-microphone"></i>
+                        Lucho RK</a> <em>(<a href="./galeria.html#stage"><i class="fa-solid fa-location-dot"></i> Stage
+                            of The Millenium</a>)</em>
+                </li>
+                <li>
+                    <strong>23:30h</strong> - <a href="./artistas.html#trueno"><i class="fa-solid fa-microphone"></i>
+                        Trueno</a> <em>(<a href="./galeria.html#sunset"><i class="fa-solid fa-location-dot"></i>
+                            Sunset</a>)</em>
+                </li>
+            </ul>
         </li>
     </ul>
 
     <hr>
 
-    <!-- Programación del Sábado -->
-    <h3>SÁBADO</h3>
-    <ul>
-        <li>
-            <strong>19:00h</strong> - <a href="./artistas.html#Benyjr">Beny JR</a> <em>(<a href="./galeria.html#urban">Urban Block</a>)</em>
-        </li>
-        <li>
-            <strong>21:15h</strong> - <a href="./artistas.html#Lucho-rk">Lucho RK</a> <em>(<a href="./galeria.html#stage">Stage of The Millenium</a>)</em>
-        </li>
-        <li>
-            <strong>23:30h</strong> - <a href="./artistas.html#Trueno">Trueno</a> <em>(<a href="./galeria.html#sunset">Sunset</a>)</em>
-        </li>
-    </ul>
+    <!-- Enlaces de contacto y redes sociales con iconos FontAwesome -->
+    <p>
+        Contacto y novedades del festival:
+        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i> Instagram oficial</a> |
+        <a href="tel:+34900000000"><i class="fa-solid fa-phone"></i> Teléfono de emergencias</a>
+    </p>
 
     <hr>
+    <!-- Enlace para volver al menú superior -->
     <a href="#arriba">Volver al menú superior</a>
 </body>
 
